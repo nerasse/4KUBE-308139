@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: '4kube'
+  name: prestashop-configmap
+data:
+  prestashop_first_name: "Fred"
+  prestashop_last_name: "LUKAS"
